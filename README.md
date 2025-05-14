@@ -21,3 +21,5 @@ Buffer size: 16384 bytes (3.28ms)
 Reporting every 30 seconds
 
 So, remember, while changing the frequency bandwidth you have to change the last 3 values while piping to waterval435.py 
+
+examples can be viewed at https://www.pe2bz.nl/hamradio/skymonitor/rtlsat_power.png and https://www.pe2bz.nl/hamradio/skymonitor/rtlTest_power.png

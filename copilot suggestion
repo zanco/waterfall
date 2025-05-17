@@ -1,0 +1,7 @@
+Ran the file through copilot to aks how to get more values on the x axis
+
+
+num_ticks = 20  # Kies hier het gewenste aantal labels (bijv. 10 of 20)
+tick_positions = np.linspace(start/1e6, stop/1e6, num_ticks)  # Genereer gelijk verdeelde waarden
+self.ax.set_xticks(tick_positions)  # Stel de dynamische ticks in
+self.ax.set_xticklabels([f"{freq:.2f} MHz" for freq in tick_positions])  # Voeg labels toe
